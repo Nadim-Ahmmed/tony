@@ -1,0 +1,319 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+nav{
+    margin: 22px;
+}
+.nav_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+margin-left: 30px;
+}
+nav ul li a{
+    text-decoration: none ;
+    color: #000000;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+   line-height: 60px;
+}
+nav ul li a:hover{
+    color: #F2B86B;
+}
+/* =============nav end */
+/* =============bannar start */
+#bannar{
+padding: 73px;
+}
+.left{
+    width: 50%;
+
+}
+.right{
+    width: 50%; 
+}
+#bannar .bannar_wrappar{
+    display: flex;
+    align-items: center;
+}
+#bannar .left h4{
+ font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 38.4px;
+color: #090A0C;
+}
+#bannar .left h1{
+    font-family: "Poppins", sans-serif;
+   font-size: 60px;
+   font-weight: 600;
+   line-height: 60px;
+   color: #090A0C;
+  
+   }
+   #bannar .left h5{
+    font-family: "Poppins", sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 60px;
+   color: #090A0C;
+   }
+   #bannar .left p{
+    font-family: "Poppins", sans-serif;
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 24px;
+   color: #3A3B3D;
+   }
+   #bannar .left a{
+    font-family: "Poppins", sans-serif;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 22px;
+   color: #FFFFFF;
+   background-color: #D9832E;
+   text-decoration: none;
+   padding: 14px 35px;
+   display: inline-block;
+   border: solid 2px transparent;
+   margin-top: 29px;
+   }
+   #bannar .left a:hover{
+    background-color: #FFFFFF;
+    color: #D9832E;
+    border: solid 2px #D9832E;
+   }
+/* =============bannar end */
+/* =============about start */
+body{
+    font-family: "Poppins", sans-serif;
+}
+#about{
+background-color: #EAEDF2;
+padding-top: 25px;
+padding-bottom: 40px;
+}
+.titel h2{
+    font-family: "Poppins", sans-serif;
+   font-size: 38px;
+   font-weight: 500;
+   line-height: 42px;
+   color: #000000;
+   position: relative;
+}
+.titel h2::after{
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: #D9832E;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+}
+.titel p{
+    font-family: "Poppins", sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 22px;
+   color: #000000;
+   margin-top: 15px;
+}
+.aboutmain{
+    width: 100%;
+    display: flex;
+    margin-top: 31px;
+
+}
+.aboutmain .imag{
+    width: 35%;
+   
+}
+.aboutmain .abouttax{
+    width: 65%;
+   margin-top: 10px;
+}
+.aboutmain .abouttax h3{
+    
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #000000;
+    margin-top: 6px;
+}
+.aboutmain .abouttax h5{
+    
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    color: #090A0C;
+    margin-top: 6px;
+    margin-bottom: 19px;
+}
+.aboutmain .abouttax h5 span{
+    color: #D9832E;
+}
+.aboutmain .abouttax p{
+    
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #555A64;
+} 
+.abouttax ul li{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #000000;
+    position: relative;
+    margin-top: 10px;
+}
+.abouttax ul li span{
+color: #555A64;
+margin-left: 50px;
+position: absolute;
+top: 0;
+left: 100px;
+}
+.abouttax ul li ::after{
+    content: '';
+    width: 2px;
+    height: 100%;
+    background-color: #8E8888;
+    position: absolute;
+    top: 0;
+    left: -50px;
+}
+.aboutul{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.aboutul ul{
+    width: 50%;
+}
+.abouttax a{
+    font-size: 14px;
+    font-weight:500 ;
+    line-height: 22px;
+    color: #FFFFFF;
+    background-color: #D9832E;
+    text-decoration-line: none;
+    padding: 14px 30px;
+    display: inline-block;
+    margin-top: 6px;
+}
+/* =============about end */
+/* =============skills  start */
+#skills{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#skills .skillswrappar{
+    display: flex;
+}
+#skills .left{
+    width: 50%;
+   
+}
+#skills .right{
+    width: 50%;
+    
+}
+#skills .html{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+   
+}
+.skillswrappar .left h3{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    color: #090A0C;
+    margin-top: 19px;
+    margin-left: 10px;
+}
+.skillswrappar .right .skillsitem{
+ 
+    border-radius: 10px;
+    border: 1px solid #D9832E;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-around;
+    display: inline-block;
+    padding: 25px;
+    margin: 0;
+    
+}
+.sikllsitemwrappar{
+    display: flex;
+    gap: 26px;
+    padding: ;
+    margin: 0;
+}
+#skills .skillswrappar .right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: end;
+}
+
+/* =============skills end */
+/* =============service start */
+#service{
+   padding: 25px;
+    background: #EAEDF2;
+    
+}
+#service .serviecitem{
+    padding: 31px 41px;
+    width: 32%;
+    background:#FFFFFF;
+    /* margin-top: 64px; */
+}
+#service .serviecitem h3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #000000;
+    margin-bottom: 18px;
+}
+#service .serviecitem p3{
+font-size: 15px;
+font-weight:300 ;
+line-height: 24px;
+color: #000000;
+}
+.servicewrappar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 29PX;
+}
+
+/* =============service end */
+/* =============works start */
+#works{
+    padding: 25px;
+    padding-bottom: 90px;
+}
+#works .workswrappar{
+   margin-top: 36px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 29px;
+}
+
+/* =============works end */
